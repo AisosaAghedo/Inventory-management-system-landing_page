@@ -7,7 +7,6 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: rgb(205, 235, 255)
 }
 
 .page-container{
@@ -20,33 +19,31 @@ body{
 }
 
 .page_header{
-    padding: 25px;
-    background: blanchedalmond;
-    font-size: 30px
-
+    width: 100%;
+ height: 150px;
+ background-color: rgb(205, 235, 255);
+ position: fixed;
+ top: 0;
+ left: 0;
+  
 }
 
 #logo{
     width: 100px;
     height: 100%;
-    align-content: space-between
-
+    
 }
 
 .nav_bar{
-    display: block;
-    text-align: center;
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
 }
 
-nav a{
-    border:ridge 1px;
-    background:rgb(255, 238, 205);
-    padding: 1px;
-    border-radius: 5%;
-    text-decoration: none;
-    color: var(--background-color)
-
+.intro-section {
+ margin-top: 180px;
 }
 
 .feature-section{
@@ -61,7 +58,7 @@ nav a{
     width: 50%;
     text-align:left;
     padding: 20px;
-
+    
   }
 
   .add_page{
@@ -77,6 +74,10 @@ nav a{
   }
 
  .About-section{
-    text-align: center;
+  text-align: center;
+    
  }
-
+ h2{
+  scroll-margin-top: 160px;
+  
+ }
